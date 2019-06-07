@@ -11,7 +11,7 @@ const addColumnGridLayout = () => {
     <p>
         I built a 'Бюро Горбунова' using 12-column-grid-layout.
         <br>
-        <a href="applications/bureau/index.html" aria-label="Mine column-grid-layout"
+        <a href="/bureau/index.html" aria-label="Mine column-grid-layout"
             class="block__task-link">
             Click
         </a>

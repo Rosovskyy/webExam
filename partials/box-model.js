@@ -34,11 +34,11 @@ const addBoxModel = () => {
     </ul>
     <p>
         And here is two small examples of these properties:
-        <a href="applications/box-model/firstExample.html" class="block__task-link"
+        <a href="/box-model/firstExample.html" class="block__task-link"
             aria-label="first-example">
             First
         </a>
-        <a href="applications/box-model/secondExample.html" class="block__task-link"
+        <a href="/box-model/secondExample.html" class="block__task-link"
             aria-label="second-example">
             Second
         </a>
@@ -53,7 +53,7 @@ const addBoxModel = () => {
         <p>
             And here you can check ways of avoiding it:
             <br>
-            <a href="applications/box-model/index.html" title="Go to my css application"
+            <a href="/box-model/index.html" title="Go to my css application"
                 class="block__task-link">
                 Click here :)
             </a>

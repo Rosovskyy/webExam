@@ -10,7 +10,7 @@ const addVisualization = () => {
     </div>
     <p>Here is the data of United States GDP.</p>
     <p>
-        <a href="applications/visualization/index.html" class="block__task-link">
+        <a href="/visualization/index.html" class="block__task-link">
             And mine implementation of the visualization!
         </a>
     </p>

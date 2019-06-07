@@ -13,7 +13,7 @@ const addSemantic = () => {
             Firstly, we started from the <b>Semantic</b> of the HTML. And for this, I build a w3c website using
             only HTML.
             <br>
-            <a href="applications/w3c/w3c.html" title="Go to my semantic implementation"
+            <a href="/w3c/w3c.html" title="Go to my semantic implementation"
                 class="block__task-link">
                 Here you can look at what I did.
             </a>

@@ -25,7 +25,7 @@ const addGame = () => {
         </li>
     </ul>
     <p>
-        <a href="applications/GameOfLife/index.html" class="block__task-link">
+        <a href="/GameOfLife/index.html" class="block__task-link">
             And mine implementation of the game!
         </a>
     </p>

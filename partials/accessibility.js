@@ -84,7 +84,7 @@ const addAccessibility = () => {
     <p>
         You will be able to see my way of keeping accessibility during all other projects.
         <br>
-        <a href="applications/w3c/w3c.html" class="block__task-link"
+        <a href="/w3c/w3c.html" class="block__task-link"
            title="Go to my accessibility implementation">
             Link to the accessibility project
         </a>

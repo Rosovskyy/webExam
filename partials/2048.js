@@ -17,7 +17,7 @@ const addGameNumbers = () => {
         tiles with larger numbers.
     </p>
     <p>
-        <a href="applications/2049/index.html" class="block__task-link">
+        <a href="/2049/index.html" class="block__task-link">
             And mine implementation of the game!
         </a>
     </p>

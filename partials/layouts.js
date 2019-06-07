@@ -18,7 +18,7 @@ const addLayouts = () => {
     <p>
         And here is my website build on flex-boxes:
         <br>
-        <a href="applications/flex-box/index.html" title="Go to my flex-box application"
+        <a href="/flex-box/index.html" title="Go to my flex-box application"
             class="block__task-link">
             Click here :)
         </a>

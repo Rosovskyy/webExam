@@ -16,7 +16,7 @@ const addSelectors = () => {
         Firstly, we started from the <b>Semantic</b> of the HTML. And for this, I build a w3c website using
         only HTML.
         <br>
-        <a href="applications/facebook/facebook.html" title="Go to my css application"
+        <a href="/facebook/facebook.html" title="Go to my css application"
             class="block__task-link">
             Here you can look at what I did.
         </a>
