@@ -1,0 +1,39 @@
+.Layout {
+  &__top-bar {
+    min-height: 100px;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  &__container {
+    width: 66%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__navigation-bar {
+    width: 25%;
+  }
+
+  &__content {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Layout__container {
+    width: 90%;
+  }
+  .Layout__navigation-bar {
+    width: 100%;
+  }
+  .Layout__content {
+    width: 100%;
+  }
+}

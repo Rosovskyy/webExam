@@ -1,0 +1,39 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h4 {
+  line-height: 1.35;
+  letter-spacing: -0.08rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.back {
+  float: right;
+  color: red !important;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: right;
+  border-bottom: 1px solid #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.highlighted {
+  background: yellow;
+}
+
+/*# sourceMappingURL=general.css.map */

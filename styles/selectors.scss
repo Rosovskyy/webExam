@@ -1,0 +1,30 @@
+.selectors {
+  &__buttons {
+    width: 33%;
+    float: left;
+  }
+
+  &__view {
+    margin-top: 10px;
+    width: 67%;
+    float: left;
+  }
+}
+
+
+.buttons__elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  flex-direction: row;
+
+  button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+}

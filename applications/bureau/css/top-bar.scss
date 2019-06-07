@@ -1,0 +1,43 @@
+.Layout__top-bar {
+
+  height: 30px;
+  margin-bottom: 70px;
+
+  * {
+    float: left;
+  }
+}
+
+.top-bar {
+
+  &__menu a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  &__menu a:hover {
+    color: rgb(226, 0, 22);
+  }
+
+  &__profile-icon {
+    height: 32px;
+    width: 32px;
+    float: right;
+  }
+}
+
+.top-bar {
+  &__top-navigation a {
+    text-decoration: none;
+    font: 14px Bureausans, Arial, sans-serif;
+    color: #000;
+    margin-right: 18px;
+  }
+
+  &__top-navigation a:hover {
+    color: rgb(226, 0, 22);
+  }
+}

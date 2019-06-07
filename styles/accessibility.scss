@@ -1,0 +1,36 @@
+.accessibility {
+  &__code-block {
+    background: #000;
+    width: 95%;
+    margin: 1em auto;
+    white-space: pre-wrap;
+    border-radius: 8px;
+    font-family: monospace, monospace;
+    line-height: 1.6;
+    font-weight: 400;
+    color: white;
+    padding: 5px 5px;
+  }
+
+  &__moments {
+    list-style-type: none;
+
+    &__li {
+      font-size: 1rem;
+      color: #222222;
+    }
+
+    &__ul {
+      list-style-type: none;
+    }
+  }
+}
+
+.moments__rule > ul > li {
+  &__ul {
+    &__li {
+      color: black;
+    }
+  }
+}
+

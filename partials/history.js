@@ -1,0 +1,35 @@
+const addHistory = () => {
+    const myElem = document.createElement("div");
+    myElem.innerHTML = `
+    <container>
+    <div class="block__header__container">
+        <a href="#history" class="block__header__link">
+            <svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>
+        </a>
+        <h4 class="block__header">JavaScript - History</h4>
+    </div>
+    <p><b>JavaScript</b> was created by <b>Brendan Eich</b> in 1995 during his time at Netscape
+        Communications. Netscape, for a time, made the best browser in the world and enjoyed market
+        dominance. In late 1995, when Microsoft cottoned-on to the competitive threat the Web posed, the
+        Internet Explorer project was started in an all-out attempt to wrestle control of the emerging
+        platform from Netscape.
+    </p>
+    <img src="http://cdn.facesofopensource.com/wp-content/uploads/2017/07/23193718/brendaneich25563.web_.jpg"
+            alt="Brendan Eich" class="history__brendan">
+    <div class="history__brendan__info">
+        <p>
+            <b>Brendan Eich</b> is an American technologist and creator of the <b>JavaScript</b> programming
+            language. He co-founded the Mozilla project, the Mozilla Foundation and the Mozilla Corporation,
+            and served as the Mozilla Corporation's chief technical officer and briefly its chief executive
+            officer. He
+            is the CEO of Brave Software.
+        </p>
+    </div>
+    <p><a href="#" class="block__back" title="Go to the top of the page">Back</a></p>
+    </container>
+    `;
+
+    return myElem;
+};
+
+export {addHistory};

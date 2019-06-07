@@ -1,0 +1,35 @@
+.Layout__top-bar {
+  height: 30px;
+  margin-bottom: 70px;
+}
+.Layout__top-bar * {
+  float: left;
+}
+
+.top-bar__menu a {
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+.top-bar__menu a:hover {
+  color: #e20016;
+}
+.top-bar__profile-icon {
+  height: 32px;
+  width: 32px;
+  float: right;
+}
+
+.top-bar__top-navigation a {
+  text-decoration: none;
+  font: 14px Bureausans, Arial, sans-serif;
+  color: #000;
+  margin-right: 18px;
+}
+.top-bar__top-navigation a:hover {
+  color: #e20016;
+}
+
+/*# sourceMappingURL=top-bar.css.map */

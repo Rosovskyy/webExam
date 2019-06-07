@@ -1,0 +1,54 @@
+.Layout__content hr {
+  margin: 40px 0;
+}
+
+.content__block {
+  width: 100%;
+
+  p {
+    a:hover {
+      color: darkblue;
+    }
+  }
+}
+
+.block {
+  &__header {
+    font-size: 2rem;
+    margin: 10px 15px;
+    clear: left;
+
+    &__container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: left;
+    }
+
+    &__link {
+      visibility: hidden;
+    }
+  }
+
+  &__task-link {
+    font-weight: 600;
+    text-decoration: none;
+    color: yellowgreen;
+  }
+
+  &__quote {
+    padding-left: 20px;
+    border-left: 2px solid wheat;
+  }
+
+  &__back {
+    float: right;
+    color: red;
+    font-weight: 200;
+  }
+}
+
+.content__block p a:hover {
+  color: darkblue;
+}
