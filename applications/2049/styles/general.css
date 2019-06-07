@@ -54,11 +54,13 @@ html {
 .cell[value="2"] {
     font-size: 50px;
     background: #EEE4DA;
+    color: #7C6D66;
 }
 
 .cell[value="4"] {
     font-size: 50px;
     background: #ECE0CA;
+    color: #7C6F66;
 }
 
 .cell[value="8"] {

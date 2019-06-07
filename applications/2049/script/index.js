@@ -1,25 +1,22 @@
 let values = [], cells = [];
 
-function start() {
+const start = () => {
     values.fill(0);
     nextPlay();
     nextPlay();
-}
+};
 
-function nextPlay() {
+const nextPlay = () => {
     let tmp = [];
     values.map((el, ind) => el === 0 ? tmp.push(ind) : null);
     values[tmp[Math.floor(Math.random() * tmp.length)]] = (Math.floor(Math.random() * 2) + 1) * 2;
     for (let i = 0; i < values.length; i++) {
         if (parseInt(cells[i].getAttribute("value")) !== values[i]) {
             cells[i].setAttribute("value", values[i]);
-            cells[i].classList.remove('anim');
-            cells[i].classList.add('anim');
         }
     }
 
     if (tmp.length > 1) return;
-    // return null ? tmp.length > 1 : console.log("not greater than 1");
 
     for (let i = 0; i < 4; i++) {
         for (let j = 0; j < 3; j++)
@@ -28,9 +25,9 @@ function nextPlay() {
             }
     }
     alert("Game over");
-}
+};
 
-function needToMove(indexes) {
+const needToMove = (indexes) => {
     let i = 0;
     for (; i < indexes.length - 1; i++)
         if (values[indexes[i]] === 0) {
@@ -40,9 +37,9 @@ function needToMove(indexes) {
         } else if (values[indexes[i]] === values[indexes[i + 1]])
             return true;
     return false;
-}
+};
 
-function move(indexes) {
+const move = (indexes) => {
     if (!needToMove(indexes)) return false;
     moveZeros(indexes);
     for (let i = 0; i < indexes.length - 1; i++) {
@@ -53,9 +50,9 @@ function move(indexes) {
     }
     moveZeros(indexes);
     return true;
-}
+};
 
-function moveZeros(indexes) {
+const moveZeros = (indexes) => {
     let tmp = [];
     for (let i = 0; i < indexes.length; i++) {
         if (values[indexes[i]] !== 0) tmp.push(values[indexes[i]]);
@@ -66,9 +63,9 @@ function moveZeros(indexes) {
     for (let i = 0; i < tmp.length; i++){
         values[indexes[i]] = tmp[i];
     }
-}
+};
 
-function onkeyup(event) {
+const onkeyup = (event) => {
     let tmp = false;
     switch (event.keyCode) {
         case 37:
@@ -89,7 +86,7 @@ function onkeyup(event) {
             break;
     }
     if (tmp) nextPlay();
-}
+};
 
 (function () {
     for (let i = 0; i < 16; i++) values.push(0);
